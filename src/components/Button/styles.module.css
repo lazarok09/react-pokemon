@@ -1,11 +1,11 @@
 .button {
   cursor: pointer;
-  padding: 25px;
+  padding: 20px;
   background: rgb(211, 1, 47);
 
   color: white;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   border: none;
   box-shadow: none;
   border-radius: 25px;
@@ -14,5 +14,10 @@
 }
 .button:hover {
   transform: scale(1.05);
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+}
+.button:disabled {
+  cursor: not-allowed;
+  background: gray;
+  color: rgb(255, 255, 255);
 }
