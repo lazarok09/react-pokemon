@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Pokemons" title="Pokemons" src="public/p.svg" />
+    <img alt="Pokemons" title="Pokemons" src="./public/P.svg" />
 </h1>
 
 <p align="center">
@@ -11,8 +11,8 @@
 
 <p align="center">
 
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
-<img alt="RepoSize" src="https://img.shields.io/github/repo-size/lazarok09/Happy?color=15C3D6&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=red&labelColor=000000">
+<img alt="RepoSize" src="https://img.shields.io/github/languages/code-size/lazarok09/react-pokemon?color=red">
 </p>
 <br>
 
