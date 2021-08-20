@@ -12,7 +12,7 @@
 <p align="center">
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=red&labelColor=000000">
-<img alt="RepoSize" src="https://img.shields.io/github/languages/code-size/lazarok09/react-pokemon?color=red">
+<img alt="RepoSize" src="https://img.shields.io/github/languages/code-size/lazarok09/react-pokemon?color=red&labelColor=000000">
 </p>
 <br>
 
@@ -44,7 +44,7 @@ O React Pokemon  é uma aplicação feita baseada em um desafio proposto em uma 
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/lazarok09/react-pokemon/blob/main/LICENSE) para mais detalhes.
 
 --
 
