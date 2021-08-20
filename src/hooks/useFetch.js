@@ -6,7 +6,7 @@ export const useFetch = (url) => {
 
   const fetchData = async () => {
     const dataRaw = await fetch(gambiarra.current);
-    const dataJSON = dataRaw.json();
+    const dataJSON = await dataRaw.json();
     setData(dataJSON);
     return dataJSON;
   };

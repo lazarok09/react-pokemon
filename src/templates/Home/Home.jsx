@@ -1,3 +1,7 @@
+import { useFetch } from "../../hooks/useFetch";
+
 export const Home = () => {
-  return <h1>Hello World</h1>;
+  const [data] = useFetch("https://pokeapi.co/api/v2/pokemon");
+  console.log(data);
+  return <h1>count: {data?.count}</h1>;
 };
