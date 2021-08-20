@@ -48,13 +48,10 @@ export const Home = () => {
             ))}
         </div>
         <div className={styles.buttonDiv} id="buttons">
-          <Button
-            text={"Render next pokmeons"}
-            onButtonClicked={handleNextPokemons}
-          />
+          <Button text={"Next pokmeons"} onButtonClicked={handleNextPokemons} />
           <Button
             disabled={isDisabled}
-            text={"Render preview pokemons"}
+            text={"Preview pokemons"}
             onButtonClicked={handlePrevPokemons}
           />
         </div>
