@@ -1,4 +1,8 @@
+import styles from "./styles.module.css";
 export const PokeCard = ({ value }) => {
-  console.log(value);
-  return <p>{value.name}</p>;
+  return (
+    <div className={styles.div}>
+      <p className={styles.p}>{value.name}</p>
+    </div>
+  );
 };
