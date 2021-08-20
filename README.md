@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Pokemons" title="Pokemons" src="public/p.svg" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#executar">Execução</a>
+</p>
 
-## Available Scripts
+<p align="center">
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+<img alt="RepoSize" src="https://img.shields.io/github/repo-size/lazarok09/Happy?color=15C3D6&labelColor=000000">
+</p>
+<br>
 
-### `yarn start`
+<p align="center">
+  <img alt="Aplicação" src=".github/telaprincipal.png" width="100%">
+</p>
+<h2 align=center>Responsividade no Smartphone :iphone: </h2>
+<p align="center">
+  <img alt="modelo responsivo" height="600px" title="no telefone" src=".github/responsivo.png">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Tecnologias
 
-### `yarn test`
+Esse projeto foi desenvolvido com a biblioteca:
+- [React.js](https://pt-br.reactjs.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Linguagens de marcação, estilo e programação:
+<br>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
 
-### `yarn build`
+## 💻 Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O React Pokemon  é uma aplicação feita baseada em um desafio proposto em uma entrevista de emprego para um desenvolvedor júnior. Essa aplicação, têm o propósito de levar o entendimento dos conceitos dos hooks e uso da biblioteca React, para criar uma aplicação capaz de se comunicar com dados que trafegam na web através de uma API pública.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :memo: Licença
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-### `yarn eject`
+--
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h2 id="executar">
+:red_circle: Como Executar
+</h2>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Clone e abra o repositório, dentro do seu editor favorito, execute no terminal =>
+~~~javascript
+npm install
+~~~
+### Em seguida startar a aplicação no terminal
+#### Siga para a pasta src/views e digite 
+~~~ javascript
+npm start
+~~~~
+##### Será aberto a aplicação, cole no URL do seu navegador - localhost:5500
+## :pencil2: Autor
+Lazaro Souza :runner: <br>
+Entusiasta na arte de aprender algo do zero<br>
+Cursando Superior de Tecnologia em Análise e Desenvolvimento de Sistemas :books: (2020-2022)<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+https://www.linkedin.com/in/lazarok09
+### Aprenda a usar o [markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open) no seu GitHub
+#### Use [emojis](https://github.com/ikatyang/emoji-cheat-sheet) no seu readme :P
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+< / :heart: >
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
