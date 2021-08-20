@@ -3,7 +3,7 @@ import { PokeCard } from "../../components/PokeCard";
 import { Button } from "../../components/Button";
 import { useEffect, useState } from "react";
 export const Home = () => {
-  const [offset, setOffSet] = useState(20);
+  const [offset, setOffSet] = useState(10);
   const [limit, setLimit] = useState(10);
 
   const [data, refetchData] = useFetch();
@@ -13,9 +13,11 @@ export const Home = () => {
     refetchData(offset, limit);
   }, [offset, limit, refetchData]);
 
+  //
+
   const handleNewPokemons = () => {
-    setLimit(limit + 10);
-    setOffSet(offset + 10);
+    setLimit((limit) => limit + 10);
+    setOffSet((offset) => offset + 10);
   };
 
   return (
