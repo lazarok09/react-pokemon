@@ -54,7 +54,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 
 ### Clone e abra o repositório, dentro do seu editor favorito, execute no terminal =>
 ~~~javascript
-npm install
+npm install node
 ~~~
 ### Em seguida startar a aplicação no terminal
 #### Siga para a pasta src/views e digite 
