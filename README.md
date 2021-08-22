@@ -52,16 +52,24 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 :red_circle: Como Executar
 </h2>
 
-### Clone e abra o repositório, dentro do seu editor favorito, execute no terminal =>
+## Para ter o repositório em sua máquina e fazer alterações faça o seguinte:
+
+### 1- Em algum terminal semelhante ao "bash", clone o repositório
+~~~javascript
+git clone https://github.com/lazarok09/react-pokemon.git
+~~~
+### 2 - Abra a pasta do repositório e execute no terminal:
 ~~~javascript
 npm install node
 ~~~
-### Em seguida startar a aplicação no terminal
-#### Siga para a pasta src/views e digite 
+### 3 - Em seguida. você deve dar start na aplicação no terminal
 ~~~ javascript
 npm start
 ~~~~
-##### Será aberto a aplicação, cole no URL do seu navegador - localhost:5500
+##### Após a execução do script de instalação do Node, e o de início (start) será aberto a aplicação em localhost, caso não ocorra, cole na  aba de URL do seu navegador o seguinte endereço:
+~~~ javascript
+http://localhost:3000/
+~~~
 ## :pencil2: Autor
 Lazaro Souza :runner: <br>
 Entusiasta na arte de aprender algo do zero<br>
